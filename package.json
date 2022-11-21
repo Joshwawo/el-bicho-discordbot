@@ -4,7 +4,7 @@
     "main": "index.js",
     "scripts": {
         "dev-ts": "ts-node src/index.ts",
-        "build": "yarn && tsc",
+        "build": "npm install && tsc",
         "dev": "nodemon src/index.ts",
         "start": "node dist/index.js",
         "watch": "tsc -w"
