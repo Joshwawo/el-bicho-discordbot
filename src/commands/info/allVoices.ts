@@ -33,7 +33,9 @@ export default new Command({
     // console.log(tss)
 
     try {
-      const url = `https://api-projects-production.up.railway.app/voices/tss`;
+      const url2 = `https://api-projects-production.up.railway.app/voices/tss`;
+
+      const url =`https://api-projects.up.railway.app/voices/tss`;
       const dataAxios = {
         tts: tssReq,
         voice: voicesReq,
@@ -44,9 +46,9 @@ export default new Command({
       const result = response.data;
       console.log(result);
       let { path } = result;
-      if(path === null){
-            path = 'we could not find the voice you are looking for'
-      }
+      // if(path === null){
+      //       path = 'we could not find the voice you are looking for'
+      // }
 
       interaction.followUp({
         files: [
@@ -58,6 +60,8 @@ export default new Command({
       });
     } catch (error) {
       console.log(error);
+      console.log('errror en el catch')
+      
       interaction.followUp(
         `we could not find the voice you are looking for, o sabra  que paso 😔👌 `
       );

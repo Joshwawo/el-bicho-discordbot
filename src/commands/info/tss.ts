@@ -32,7 +32,8 @@ export default new Command({
     // console.log(tss)
 
     try {
-      const url = `https://api-projects-production.up.railway.app/voices/tss`;
+      const url2 = `https://api-projects-production.up.railway.app/voices/tss`;
+      const url =`https://api-projects.up.railway.app/voices/tss`;
       const dataAxios = {
         tts: tssReq,
         voice: voicesReq,

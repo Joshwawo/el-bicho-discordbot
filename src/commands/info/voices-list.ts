@@ -6,7 +6,8 @@ export default new Command({
     description: "replies with hola",
     
     run: async ({ interaction }) => {
-        interaction.followUp(`Here is the list of voices: https://api-projects-production.up.railway.app/voices/voiceslist?mode=tts-basic&language=english 
+        const url =`https://api-projects.up.railway.app/voices/tss`;
+        interaction.followUp(`Here is the list of voices: https://api-projects.up.railway.app/voices/voiceslist?mode=tts-basic&language=english 
         we recommend you to use https://chrome.google.com/webstore/detail/json-viewer-pro/eifflpmocdbdmepbjaopkkhbfmdgijcc to see the list of voices
         `)
     },
@@ -21,3 +22,5 @@ export default new Command({
 //     const voiceChannelsNames = voiceChannels.map((channel) => channel.name);
 //     message.reply(voiceChannelsNames.join(", "));
 // },
+
+// dont fuck with me gura get your shark ass out of here
