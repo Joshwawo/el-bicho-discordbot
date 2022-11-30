@@ -1,6 +1,6 @@
 import { Command } from "../../structures/Command";
-import ytdl from "ytdl-core";
-import yts from "yt-search";
+// import ytdl from "ytdl-core";
+// import yts from "yt-search";
 import playDl from "play-dl";
 import {
   AudioPlayer,
