@@ -178,11 +178,6 @@
   dependencies:
     "@types/node" "*"
 
-"@types/yt-search@^2.3.2":
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/@types/yt-search/-/yt-search-2.3.2.tgz#e714e3ccb12300ee605ffa13523f64794b543aaf"
-  integrity sha512-3QZDV7BUFkwEhodTZZWbCm+CeVwnT7tKXj8IT7IXjJpT3mwd54Udti2MJz3HltEFCa9lrqy+r/m1NPIQXegKug==
-
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
